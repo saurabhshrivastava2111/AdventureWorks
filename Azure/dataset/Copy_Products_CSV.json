@@ -1,0 +1,23 @@
+{
+	"name": "Copy_Products_CSV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "http_linked_service",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "saurabhshrivastava2111/AdventureWorks/refs/heads/main/Dataset/AdventureWorks_Products.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

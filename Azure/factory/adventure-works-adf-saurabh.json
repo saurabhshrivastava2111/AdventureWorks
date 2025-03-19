@@ -1,0 +1,9 @@
+{
+	"name": "adventure-works-adf-saurabh",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9a4ca92f-7daf-4ae2-a4e9-cc8a3965a5f7",
+		"tenantId": "dd830c86-78d6-4c0d-8124-fa9c4607d538"
+	}
+}
