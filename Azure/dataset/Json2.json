@@ -1,0 +1,18 @@
+{
+	"name": "Json2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "http_linked_service",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "saurabhshrivastava2111/AdventureWorks/refs/heads/main/config/parameters/file_list.json"
+			}
+		},
+		"schema": {}
+	}
+}
