@@ -1,0 +1,33 @@
+{
+	"name": "paramters_json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adls_gen2_inked_service",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "parameters.json",
+				"folderPath": "file_to_be_copied",
+				"fileSystem": "parameters"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"relative_url": {
+					"type": "string"
+				},
+				"sink_folder": {
+					"type": "string"
+				},
+				"filename": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
