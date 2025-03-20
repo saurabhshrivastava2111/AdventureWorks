@@ -71,7 +71,7 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"source_relative_url": {
-											"value": "@item().source_relative_url",
+											"value": "@item().relative_url",
 											"type": "Expression"
 										}
 									}
