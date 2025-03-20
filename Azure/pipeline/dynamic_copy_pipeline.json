@@ -19,7 +19,8 @@
 						"value": "@activity('loopkup_parameters_activity').output.value",
 						"type": "Expression"
 					},
-					"isSequential": true,
+					"isSequential": false,
+					"batchCount": 3,
 					"activities": [
 						{
 							"name": "Dynamic_copy_data_activity",
